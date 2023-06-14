@@ -27,3 +27,16 @@ public class ConnectionFactory {
 		
 	}
 }
+/*
+login git token
+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
+
+salvar ultima senha salva
+git config --global credential.helper cache
+
+comando para executar 
+java -jar target/bytebank-1.0-SNAPSHOT.jar
+
+comando para criar executavel e baixar dependencias
+mvn clean install
+*/
