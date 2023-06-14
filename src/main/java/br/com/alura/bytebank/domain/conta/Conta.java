@@ -24,10 +24,8 @@ public class Conta {
     public void sacar(BigDecimal valor) {
         this.saldo = this.saldo.subtract(valor);
     }
-
-    public void depositar(BigDecimal valor) {
-        this.saldo = this.saldo.add(valor);
-    }
+    
+    
 
     @Override
     public boolean equals(Object o) {

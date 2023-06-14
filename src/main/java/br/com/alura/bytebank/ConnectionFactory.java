@@ -20,7 +20,7 @@ public class ConnectionFactory {
 		HikariConfig config = new HikariConfig();
 		config.setJdbcUrl("jdbc:mysql://localhost:3306/byte_bank");
 		config.setUsername("root");
-		config.setPassword("");
+		config.setPassword("p4p4l3g84s");
 		config.setMaximumPoolSize(10);
 		
 		return new HikariDataSource(config);
@@ -35,7 +35,7 @@ salvar ultima senha salva
 git config --global credential.helper cache
 
 comando para executar 
-java -jar target/bytebank-1.0-SNAPSHOT.jar
+java -jar target/app.jar
 
 comando para criar executavel e baixar dependencias
 mvn clean install
