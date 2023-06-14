@@ -31,6 +31,8 @@ public class ConnectionFactory {
 login git token
 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
 
+novo token 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
+
 salvar ultima senha salva
 git config --global credential.helper cache
 
